@@ -1,0 +1,323 @@
+_trel._udp.openthread.thread.home.arpa
+_srpl-tls._tcp.openthread.thread.home.arpa
+lb._dns-sd._udp.142.254.133.10.in-addr.arpa
+lb._dns-sd._udp.142.254.133.10.in-addr.arpa
+_dns-push-tls._tcp.home.arpa
+_uscan._tcp.openthread.thread.home.arpa
+_pdl-datastream._tcp.openthread.thread.home.arpa
+_meshcop._udp.openthread.thread.home.arpa
+_scanner._tcp.openthread.thread.home.arpa
+_ippusb._tcp.openthread.thread.home.arpa
+_ptp._tcp.openthread.thread.home.arpa
+_uscans._tcp.openthread.thread.home.arpa
+_ipp._tcp.openthread.thread.home.arpa
+50.2.168.192.in-addr.arpa
+_ipps._tcp.openthread.thread.home.arpa
+b._dns-sd._udp.secure
+_remotepairing._tcp.openthread.thread.home.arpa
+_printer._tcp.openthread.thread.home.arpa
+lb._dns-sd._udp.secure
+db._dns-sd._udp.secure
+_ldap._tcp.dc._msdcs.iot.secure
+db._dns-sd._udp.0.2.168.192.in-addr.arpa
+lb._dns-sd._udp.0.2.168.192.in-addr.arpa
+secure.secure
+_dns-update._udp.lan
+_net-assistant._udp.lan
+_smb._tcp.lan
+_cups._sub._ipps._tcp.lan
+_cups._sub._fax-ipp._tcp.lan
+_aaplcache._tcp.secure
+_aaplcache4._tcp.secure
+wpad.secure
+wpad.lan
+78.22.217.172.in-addr.arpa 
+.lan
+.local
+mask-h2.icloud.com
+#blocked due to double routing us and uk
+a-fds.youborafds01.com
+2cnet.net
+edge.api.brightcove.com 
+geolocation.onetrust.com
+d3vbro65eo65hz.cloudfront.net
+#my blocked domains moved from Firewalla
+d1s31zyz7dcc2d.cloudfront.prod.ota-cloudfront.net
+adtago.s3.amazonaws.com
+adservice.google.com
+advice-ads.s3.amazonaws.com
+gravatar.com
+analyticsengine.s3.amazonaws.com
+advertising.twitter.com
+assoc-amazon.com
+amazonclix.com
+settings-win.data.microsoft.com
+amazonaax.com
+analytics.google.com
+advertising-api-eu.amazon.com
+#my blocked domains from Adblock tests and others also a blocklist on Firewalla
+gravatar.com
+settings-win.data.microsoft.com
+adtago.s3.amazonaws.com
+analyticsengine.s3.amazonaws.com
+advertising-api-eu.amazon.com
+amazonaax.com
+amazonclix.com
+assoc-amazon.com
+adservice.google.com
+advertising.twitter.com
+#shutters in case inturn on booster (sometimes because it tried to use google DNS)
+195.85.215.29
+#itv  necessary blocks
+recommendations.prd.user.itv.com
+tpsc-video.doubleverify.com
+#cw and others also if not blocks causes itv. ro some uk not to work
+cws.conviva.com
+#following allows and blocks for amazon ads not to use
+##@@a*aivottevtad-a.akamaihd.net
+##@@*-a.akamaihd.net
+#next one may expose to other ads but benefit in amazon live tv
+#in the mapping file a subdomain appeared with value and I deleted it
+#Likely not relevant, but not written correctly the rules
+#cloudfront.net
+#dscw154.akamai.net$important
+#dscw*.akamai.net$important
+#m.media-amazon.com$important
+#dsce9.akamaiedge.net$important
+#a1366.dscapi6.akamai.net$important
+#us-east-1.aiv-delivery.net$important
+#get-bx.g.aaplimg.com$important
+#block prime new ads that dont help and dont harm except #which break if activated for future reference comments - following blocks don't break but don't do anything
+s3-iad-2.cf.hls.row.aiv-cdn.net
+d1xfray82862hr.cloudfront.net
+*.shard-2-na-reg.hls.pv-cdn.net
+*.shard-2-na-reg.hls.pv-cdn.net
+dlohykvottk83.cloudfront.net
+###not the previous causes trouble
+#following allows and blocks for amazon ads not to use
+##@@a*aivottevtad-a.akamaihd.net
+##@@*-a.akamaihd.net
+#next one may expose to other ads but benefit in amazon live tv
+#in the mapping file a subdomain appeared with value and I deleted it
+#Likely not relevant, but not written correctly the rules
+#cloudfront.net
+#dscw154.akamai.net$important
+#dscw*.akamai.net$important
+#m.media-amazon.com$important
+#dsce9.akamaiedge.net$important
+#a1366.dscapi6.akamai.net$important
+#us-east-1.aiv-delivery.net$important
+#get-bx.g.aaplimg.com$important
+#block prime new ads that dont help and dont harm except #which break if activated for future reference comments - following blocks don't break but don't do anything
+s3-iad-2.cf.hls.row.aiv-cdn.net
+d1xfray82862hr.cloudfront.net
+shard-2-na-reg.hls.pv-cdn.net
+shard-2-na-reg.hls.pv-cdn.net
+dlohykvottk83.cloudfront.net
+#*-w.pop-iad-2.cf.dash.row.aiv-cdn.net
+pop-iad-2.cf.dash.row.aiv-cdn.net
+#get-bx.g.aaplimg.com
+#as explained dont block those
+#*s3.ll.hls.row.aiv-cdn.net
+#*-hsrw.s.loris.llnwd.net
+#*.hls.row.aiv-cdn.net
+#dmqdd6hw24ucf.cloudfront.net
+#avpk-a2ehf10z0yhpek-0.na.api.amazonvideo.com
+#cf-*.aux.pv-cdn.net
+#m.media-amazon.com
+#amazon-m-*-hsrw.s.loris.llnwd.net
+#d1*cloudfront.net$important
+#dmqdd6hw24ucf.cloudfront.net$important
+#additional tubi possible block for aeal tight
+#not sure since there is a more specific with mapping
+#@@litix.io
+#beofre pi hole re the above
+#DNS overrites for false positives causing the hosts files not to apply otherwise will use public DNS
+#107.129.216.130	events.brightline.tv
+#107.129.216.130	cdn-media.brightline.tv
+#23.237.64.138	ichnaea-web.netflix.com
+#104.128.227.250	dai-ads.cwtv.com
+#51.81.208.182	live-manifests-aka.warnermediacdn.com
+#51.81.208.182	live-media-lln.warnermediacdn.com
+#8.23.133.112	aax-eu.amazon-adsystem.com
+#51.81.208.182	bakery.cbsi.video
+#147.124.211.156	sports.play.cbsi.video
+#107.129.216.130	disney.my.sentry.io
+#155.254.63.35	geo.ngtv.io
+#107.129.216.130	assets.huluim.com
+#51.81.208.182	uapi.adrise.tv
+#147.124.211.156	438b44e68a18a815aaf4aa6ab.litix.io
+#104.128.227.6	events.prd.api.discomax.com
+#107.129.216.130	services.brightline.tv
+#104.128.227.250	dai-ads.cwtv.com
+#109.203.96.228	d3vbro65eo65hz.cloudfront.net
+#23.237.64.138	ichnaea-web.netflix.com
+#8.23.133.112	aviary.amazon.com
+#51.81.208.182	ads.adrise.tv
+#51.81.208.182	s.adrise.tv
+#probables
+#51.81.208.182	license.adrise.tv
+#8.23.133.112	aax-us-east.amazon-adsystem
+#8.23.133.112	aax-us.amazon-adsystem.com
+#51.81.208.182	live-manifests-lln.warnermediacdn.com
+#51.81.208.182	live-manifests-aka.warnermediacdn.com
+#51.81.208.182 warnermediacdn.com
+#following too generic maping ahead for subs
+#@@cbsi.video
+#due to blocks some values were removed just in case
+#107.129.216.130	
+#mozarthulucom-a.akamaihd.net
+#107.129.216.130	tempohulucom-a.akamaihd.net
+#155.254.63.159	#bfc8db75dcf7cd051ef445ab03ebd6ac0e103e07b0f30f6ff513efed1d5870f.us-east-1.prod.service.minerva.devices.a2z.com
+#107.129.216.130	mozarthulucom-a.akamaihd.net
+#107.129.216.130	tempohulucom-a.akamaihd.net
+#192.64.83.214	epixhls-a.akamaihd.net
+#107.129.216.130	ngcstatpack-a.akamaihd.net
+#51.81.208.182	mediautilsmrs-a.akamaihd.net
+#51.81.208.182	mediamtvnserv-a.akamaihd.net
+#allow mini pc as DNS server to inquire about my lan
+#@@wpad.lan^$client='mini-#pc.ethernet.1.lan',important
+#@@wpad.lan^$client='192.168.2.43'
+#wriritten by adguard DNS filter to 0.0.0.0 could be issue wit max just in case i release it
+api2.branch.io
+#override all convivial even when blocking off
+cws.conviva.com
+cws-us-east.conviva.com 
+cws-1273857609.eu-west-1.elb.amazonaws.com
+metrics.mzstatic.com
+securemetrics.apple.com
+supportmetrics.apple.com
+metrics.apple.com
+api2.branch.io
+#my5 commercial blocking
+# can not block!! cassie.channel5.com and also 164.w10.akamai.net below, but other blocks and SUSPENDING allows as marked, keeps ad free
+eu-west-general-v4mir-active.fwgtm.akadns.net
+#||a164.w10.akamai.net
+skyadsuk.hs.llnwd.net$important
+#possibly needed first one to "release" b4 channel5 thing
+#@@||userservice-api.channel5.com
+#@@||ch5.sc.omtrdc.net
+#@@||mtv0.hb-api.omtrdc.net
+#@@||va-edge.sc.omtrdc.net
+#@@||youboranqs01.com
+#@@||youborafds01.com
+#@@||c5appletv.2cnt.net
+#@@||firebaselogging-pa.googleapis.com
+#needed to channel 4 work - first 2 prob ok to keep block
+#@@||sdk.fra-01.braze.eu
+#@@||webstats.channel4.com
+startups.ss7.tv.s3.amazonaws.com
+c.amazon-adsystem.com
+nbcstreaming.sc.omtrdc.net
+#blocks necessary for CNN programs not to show commercial commercials
+d2une8j523d8re.cloudfront.net
+events.brightline.tv
+services.brightline.tv
+dualstack.wbd-us-prd.map.fastly.net
+#previous 4 is cnn blocks that may be a problem see the 5th back is ok the last (one up) most likely to may be damage
+#possible that needed allow therefore blocked because of CNN commercials if see the problems try to remove it the following
+collector.cdp.cnn.com
+#following to prevent hulu not working
+api-gateway-ap-prd-or2.infra.adobe.io
+#cnn ad block$important
+#||vod-*-fly.warnermediacdn.com ^([a-zA-Z0-9-]+.)*vod-[a-zA-Z]*-fly.warnermediacdn.com$
+vod-media-lln.warnermediacdn.com
+vod-media-cf.warnermediacdn.com
+#||vod-media-*.warnermediacdn.com ^([a-zA-Z0-9-]+.)*vod-media-[a-zA-Z0-9-]*.warnermediacdn.com$
+#even less certain may be false block
+rapid-prod-app-574495522rapid.us-east-1.elb.amazonaws.com
+pardtx566tx1133tx1700tx2267tx2834tx3401tx3968tx4535tx5102tx5669tx6236tx6803pardirnaturalpartightenfactor0
+cf0 #blocks news segments on Paramount+ CBS but not consistent so on hold now
+#@@||pubads.g.doubleclick.net
+#@@||sb.scorecardresearch.com
+#@@||fastly-mobile-collector.newrelic.com
+#@@||va-edge.sc.omtrdc.net
+#@@||cbs.hb-api.omtrdc.net
+#@@||udm.scorecardresearch.com
+#@@||assets.adobedtm.com
+#@@||int.vaicore.site
+#@@||assets.adobedtm.com
+pubingress-feedback-1a79ae822a4053f2.elb.eu-west-1.amazonaws.com
+#||tom.itv.com
+europe-west1-itv-ds-prd.cloudfunctions.net
+#the next removes the commercials inside but not before$important
+secure.pes.itv.com
+#next makes first commericials into on sometimes
+apv.itv.com
+#not sure if this helps
+#this one really seems to leave one atsstart 
+promoted.hubsvc.itv.com
+content.prd.user.itv.com
+shortform.prd.shows.itv.com
+#following may delete all add on apple tv all but also block video^
+entitlement.prd.user.itv.com
+#from online recommendations 
+#clientstream-ga.launchdarkly.com
+#prior may be breaking sling
+c5ads.ott.skymedia.co.uk
+tool-a.akamaihd.net
+#ovp.itv.com
+# ar.prd.content.itv.com, tom.itv.com, and itvpnpctv.blue.content.itv.com can not be blocked but seem to be why ads dont do aw
+#channel 4 recommended didn't check yet
+sexperienceuk.channel4.com
+can.http.anno.channel4.com
+#itv piossible?
+fp2e7a.wpc.phicdn.net
+#REMOVES ADS FROM TBS!!
+sb.scorecardresearch.com
+#now sling tv###
+#tfirst rying to block commercials from sling TV first blocking  all the ads may be coming from the 
+#||p-*.us-*-*.elb.amazonaws.com ^([a-zA-Z0-9-]+.)*p-[a-zA-Z0-9-]*.us-[a-zA-Z0-9-]*-[a-zA-Z0-9-]*.elb.amazonaws.com$
+#then  ALLOW all those from "p--- movetv.com" (if it doesn't work asnd ads get through this will become block and i have list of allow standby bellow) by just for that block: 
+#then block/except major suspects from streaming ad enablers regardless following occasionally show up
+p-aw2-adapt-cdn.awsprodops.movetv.com
+p-drmfp-v.gtm.movetv.com
+p-ae1-adapt-cdn.awsprodops.movetv.com
+#next ones not on lists but didn't show up a lot at all however some disabled since they break sling
+na-west-general-dualmir-active.fwgtm.akadns.net
+p-ae1-adapt-beacon.awsprodops.movetv.com
+#following dont flood but break sling
+#||p.slingtv.map.fastly.net
+#||clientstream-ga.launchdarkly.com
+#||p-streamauth.movetv.com
+#||p-img.movetv.com
+###the following never to be blocked destructive
+#clientstream.launchdarkly.com, sdk-04.moengage.com, clientstream.launchdarkly.com
+###############
+#so far the large exception (white list movetv.com) and addition 0f other not automacitlaly there isn't enough #to remove all adds some of the following possible black listed
+#According movetv for now blocked
+#MEANINGLESS THE FOLLOWIN NOW AS ARE ALL ALLOWED
+#@@||p-streamauth.movetv.com
+#@@||p-img.movetv.com
+#@@||p-cmwnext-fast.movetv.com
+#@@||p-dynaman.movetv.com
+#@@||p-ae1-dynaman.movetv.com
+#@@||p-drmfp-vod.movetv.com
+#@@||p-cdn4-1-cg7-vod-????
+#@@||cbd46b77.movetv.com
+#@@||p-cdn1-1-603-cg15-linear-cbd46b77.movetv.com
+#@@||p-drmfp.movetv.com
+#@@||p-geo.movetv.com  p-ae1-adapt-cdn.awsprodops.movetv.com
+#@@||ums.p.sling.com
+impressions.onelink.me^$importat
+#this iconic block somehow thinking allowing Prime Video so for now I'm trying to allow it
+#@@||67f3c266cb99e78f9bfae0cfba25ebbdca9865a19e806fab894c32f221710eb.us-east-1.prod.service.minerva.devices.a2z.com
+#tried the following to get rid of amazon ads (pretty much what is left amazon) does not work. The first one ect.images-amazon.com doesnt really break (just delays ) but with no value just to note. 
+#||ecx.images-amazon.com
+#||api.amazon.com
+#||avpk-a2ehf10z0yhpek-0*.api.amazonvideo.com
+#||m.media-amazon.com
+#||api.amazonalexa.com
+pardtx566tx1133tx1700tx2267tx2834tx3401tx3968tx4535tx5102tx5669tx6236tx6803pardirnaturalpartightenfactor0
+cf0 ###attempt to block location
+devicelocation.ngxcld.com
+ngxcld.com
+#======tubi adjustments (first one isn't blocked but just in case it is) and never block anything with 'fastly' for tubiul 
+ark.tubi.video
+d2le8qewapxu2f.cloudfront.net
+rainmaker.production-public.tubi.io
+a1863.dscw154.akamai.net
+lb.production.scalamigo-sealion.tubi.io
+#nxcld for ap netgear block^
+ngxcld.com
+winzip.com
