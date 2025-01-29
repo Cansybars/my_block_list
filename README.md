@@ -1,0 +1,1 @@
+separate blocks and allows (comibned in adguard home, allows to be added as wildcard white list) that on top of hagezi multi ulimate block almost all US AND UK streaming and other ads including on devices such asa apple tv and co
