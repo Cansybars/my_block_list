@@ -1,3 +1,5 @@
+#together with Hagezi Multi Ulitmate blocks almost all streaming apps, streaming ads
+
 *._trel._udp.openthread.thread.home.arpa
 *._srpl-tls._tcp.openthread.thread.home.arpa
 *.lb._dns-sd._udp.142.254.133.10.in-addr.arpa
