@@ -1,4 +1,7 @@
-#together with Hagezi Multi Ulitmate blocks almost all streaming apps, streaming ads
+#This block list, together with the separate allow list (for pi-hole create separate Regex white listings, 
+#for AdGuardHome a combined list can be used), on top of Hagezi Multi Ultimate, blocks all streaming apps ads US,
+#and UK (including for devices, such as Apple TV/Fire TV etc.), and eliminate 'false positives',
+#that may block some of the services
 
 *._trel._udp.openthread.thread.home.arpa
 *._srpl-tls._tcp.openthread.thread.home.arpa
